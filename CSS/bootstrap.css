@@ -1,0 +1,43 @@
+:root{
+    --brown-color: brown;
+    --white-color: white;
+    --black-color: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 1.5;
+
+}
+.btn-primary, .btn-primary:focus, .btn-primary:active
+{
+    background-color: brown;
+    border-color: brown;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: brown;
+    color: brown;
+}
+.navbar-brand > img{
+    width: 100px;
+    height: 100px;
+}
+.container-fluid{
+    background-color: rgb(157, 157, 202);
+    border-color:rgb(157, 157, 202);
+}
+footer img{
+    width: 200px;
+    height: 200px;
+}
+.carusel-inner, .carusel-inner img{
+    height: 400px;
+}

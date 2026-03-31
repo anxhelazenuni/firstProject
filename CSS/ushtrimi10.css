@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+}
+div>div{
+    background-color: gray;
+    margin: 10px;
+}
+#bleft, #bright, #center{
+    width: 33.3%;
+    float: left;
+    height: 200px;
+}
+

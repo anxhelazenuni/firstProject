@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h2{
+    display: none;
+}
+.bigParent{
+   width: 80%;
+   margin: 20px auto;
+}
+.bigParent>.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bigParent .child{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Responsiviteti*/
+/*max*/
+
+ @media  (max-width:800px){
+   .bigParent .child{
+    width: 48%;
+   }
+ }
+ @media  (max-width:425px){
+   .bigParent .child{
+    width: 100%;
+    
+   } 
+   .fa-headphones{
+    font-size: 30px;
+   }
+ }
+ 

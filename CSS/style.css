@@ -1,0 +1,37 @@
+/* Selektori universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-size: 1em;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+background-color: rgb(204, 124, 124);
+background-image: url(../images/Pamje\ deti.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position: center center;
+}
+
+#para1{
+color: bisque;
+}
+#para2{
+color: aquamarine;
+}
+#para1, #para2{
+    text-decoration: underline;
+}
+.styleclass{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spacetext{
+    text-indent: 20px;
+}
+.stylespan{
+    background-color: blue;
+}
